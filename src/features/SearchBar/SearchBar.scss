@@ -1,5 +1,6 @@
 .search_bar {
   width: 100%;
+  margin-bottom: 50px;
   &_container {
     width: 100%;
     max-width: 1200px;
@@ -28,6 +29,7 @@
     display: flex;
     align-items: center;
     font-family: "Roboto-Bold", sans-serif;
+    font-size: 14px;
   }
   [class=" css-1xc3v61-indicatorContainer"],
   [class=" css-1u9des2-indicatorSeparator"],
@@ -38,7 +40,7 @@
   [class=" css-13cymwt-control"] {
     width: 100%;
     border-radius: 20px;
-    background: #bbbbbb;
+    // background: #bbbbbb;
     color: #135f55;
   }
   [class=" css-1fdsijx-ValueContainer"] {
@@ -54,7 +56,7 @@
   [class=" css-t3ipsp-control"] {
     width: 100%;
     border-radius: 20px;
-    background: #bbbbbb;
+    // background: #bbbbbb;
     color: #135f55;
   }
   .custom-placeholder {

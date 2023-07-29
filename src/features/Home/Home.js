@@ -1,13 +1,14 @@
 import React from "react";
 import "./Home.scss";
-import Header from "./../../layouts/Header/Header";
+import Wrapper from "../Wrapper/Wrapper";
 import SearchBar from "./../SearchBar/SearchBar";
 
 function Home() {
   return (
     <section className="home">
-      <Header />
-      <SearchBar />
+      <Wrapper>
+        <SearchBar />
+      </Wrapper>
     </section>
   );
 }

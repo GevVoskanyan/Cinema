@@ -62,28 +62,3 @@ function SearchBar(props) {
 }
 
 export default SearchBar;
-
-{
-  /* <ul className="search_bar_select">
-            <li
-              className="search_bar_select_main"
-              onClick={() => setIsSubOpen(!isSubOpen)}
-            >
-              <AiOutlineMenu className="search_bar_select_main_icon" />
-              Categories
-              {isSubOpen && (
-                <ul className="search_bar_select_sub">
-                  {options.map((c) => (
-                    <li
-                      key={c.id}
-                      className="search_bar_select_sub_list"
-                      onClick={selectCategoryHandler}
-                    >
-                      {c.name}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          </ul> */
-}
