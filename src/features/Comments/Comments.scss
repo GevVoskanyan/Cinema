@@ -1,0 +1,23 @@
+.blur {
+  background-color: #135f5526;
+  filter: blur(14px);
+  width: 100%;
+  height: 14px;
+}
+.comments {
+  background: rgba(19, 95, 85, 0.15);
+  &__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 45px 0;
+  }
+  &__title {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
