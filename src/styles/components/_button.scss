@@ -6,6 +6,9 @@
   font-weight: 600;
   box-shadow: -6px -6px 22px 0px rgba(0, 0, 0, 0.5) inset,
     6px 6px 35px 0px rgba(255, 255, 255, 0.1) inset;
+  &:hover {
+    color: #fff;
+  }
 }
 
 .more {
@@ -18,5 +21,5 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin: 40px auto 60px;
+  margin: 40px auto 80px;
 }

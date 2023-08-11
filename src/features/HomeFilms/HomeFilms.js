@@ -6,7 +6,7 @@ import RatingComponent from "../../common/RatingComponent/RatingComponent";
 function HomeFilms(props) {
   const { data, title } = props;
   const settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
@@ -19,7 +19,7 @@ function HomeFilms(props) {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {

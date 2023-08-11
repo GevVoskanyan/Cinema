@@ -7,6 +7,7 @@ function AppRoutes(props) {
   return (
     <Routes>
       <Route index element={<Home />} />
+      <Route path="/" />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

@@ -41,22 +41,23 @@
     font-weight: 600;
     line-height: normal;
   }
+  .slick-disabled.slick-prev {
+    &::before {
+      display: none;
+    }
+  }
+  .slick-disabled.slick-next {
+    &::before {
+      display: none;
+    }
+  }
 }
 [class="slick-slider slick-initialized"] {
   position: relative;
   top: 0;
   left: 0;
 }
-.slick-disabled.slick-prev {
-  &::before {
-    display: none;
-  }
-}
-.slick-disabled.slick-next {
-  &::before {
-    display: none;
-  }
-}
+
 .home_films_container .slick-prev {
   &::before {
     content: url(../Home/img/icons/prev.png);

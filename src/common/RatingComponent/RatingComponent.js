@@ -10,12 +10,13 @@ function RatingComponent(props) {
     <ReactStars
       count={5}
       onChange={ratingChanged}
-      size={24}
+      size={props.size || 24}
       isHalf={true}
       emptyIcon={<BsStar />}
       halfIcon={<BsStarHalf />}
       fullIcon={<BsStarFill />}
       activeColor="#ffd700"
+      value={props.value || null}
     />
   );
 }
