@@ -1,4 +1,6 @@
 .header {
+  display: flex;
+  align-items: center;
   margin-bottom: 60px;
   &__container {
     width: 100%;
@@ -6,6 +8,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
   }
   &__nav_bar {
     display: flex;
@@ -38,5 +42,8 @@
   }
   &__sign-up {
     background: #e8920b;
+    &:hover {
+      background-color: #c67e11;
+    }
   }
 }

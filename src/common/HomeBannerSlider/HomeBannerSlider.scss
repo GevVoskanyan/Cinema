@@ -57,9 +57,15 @@
       &_play {
         background-color: #1a5f55;
         margin-right: 20px;
+        &:hover {
+          background-color: #14534a;
+        }
       }
       &_ticket {
         background-color: #e09016;
+        &:hover {
+          background-color: #c67e11;
+        }
       }
     }
   }

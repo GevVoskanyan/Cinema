@@ -97,6 +97,9 @@
   }
   &_btn {
     background-color: #185c53;
+    &:hover {
+      background-color: #14534a;
+    }
   }
   &_search_icon {
     color: #fff;
