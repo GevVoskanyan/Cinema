@@ -14,6 +14,12 @@ export const latest = [
   { title: "12 Years To Slave", img: `${twelveYearsToSlave}`, id: 9 },
 ];
 
-export const coming_soon = [{}];
+export const genre = [
+  { value: "comedy", label: "Comedy" },
+  { value: "drama", label: "Drama" },
+  { value: "fantasy", label: "Fantasy" },
+  { value: "historical", label: "Historical" },
+];
 
-export const featured_movies = [{}];
+export const Country = [{}];
+export const year = [{}];

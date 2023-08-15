@@ -28,6 +28,7 @@ function SearchBar(props) {
   const onSelectChangeHandler = useCallback((ev) => {
     console.log(ev);
   }, []);
+
   return (
     <div className="search_bar">
       <div className="search_bar_container">

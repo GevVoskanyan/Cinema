@@ -2,6 +2,7 @@ import React from "react";
 import "./HomeFilms.scss";
 import Slider from "react-slick";
 import RatingComponent from "../../common/RatingComponent/RatingComponent";
+import FilmCart from "../../common/FilmCart/FilmCart";
 
 function HomeFilms(props) {
   const { data, title } = props;
@@ -46,17 +47,8 @@ function HomeFilms(props) {
         <h2 className="home_films_title">{title}</h2>
         <Slider {...settings}>
           {data.map((d) => (
-            <div key={d.id} className="home_films_slides">
-              <figure className="home_films_slides_img">
-                <img src={d.img} alt="" />
-              </figure>
-              <div className="home_films_slides_info">
-                <div className="home_films_slides_title">{d.title}</div>
-                <div className="home_films_rating_voters">
-                  <RatingComponent />
-                  <span className="home_filmshome_voters">180k Voters</span>
-                </div>
-              </div>
+            <div key={d.id}>
+              <FilmCart data={d} />
             </div>
           ))}
         </Slider>
