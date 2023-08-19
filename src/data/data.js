@@ -12,6 +12,9 @@ export const latest = [
   { title: "1+1", img: `${one}`, id: 7 },
   { title: "2012", img: `${film_2012}`, id: 8 },
   { title: "12 Years To Slave", img: `${twelveYearsToSlave}`, id: 9 },
+  { title: "1+1", img: `${one}`, id: 10 },
+  { title: "2012", img: `${film_2012}`, id: 11 },
+  { title: "12 Years To Slave", img: `${twelveYearsToSlave}`, id: 12 },
 ];
 
 export const genre = [
