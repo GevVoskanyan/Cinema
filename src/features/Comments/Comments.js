@@ -2,7 +2,6 @@ import React from "react";
 import "./Comments.scss";
 import { Link } from "react-router-dom";
 import CommentsSlides from "./../../common/CommentsSlides/CommentsSlides";
-import { FcPrevious, FcNext } from "react-icons/fc";
 import user_1 from "./img/user_1.png";
 import user_2 from "./img/user_2.png";
 import user_3 from "./img/user_3.png";
@@ -108,6 +107,7 @@ function Comments(props) {
               See all
             </Link>
           </div>
+          <div className="slicks"></div>
           <div className="comments__slider_blog">
             <CommentsSlides users={users} />
           </div>

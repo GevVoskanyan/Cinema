@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomeFilms.scss";
 import Slider from "react-slick";
-import RatingComponent from "../../common/RatingComponent/RatingComponent";
 import FilmCart from "../../common/FilmCart/FilmCart";
 
 function HomeFilms(props) {
