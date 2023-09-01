@@ -186,7 +186,7 @@ function SingleFilm(props) {
           </div>
           <Link
             className="btn btn_orange single_film_get_tickets"
-            to="/tickets/:filmId"
+            to={`/tickets/${film.id}`}
           >
             Get Tickets
           </Link>

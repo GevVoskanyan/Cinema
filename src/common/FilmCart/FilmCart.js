@@ -1,12 +1,13 @@
 import React from "react";
 import RatingComponent from "../RatingComponent/RatingComponent";
 import "./FilmCart.scss";
+import { Link } from "react-router-dom";
 
 function FilmCart({ data }) {
   return (
-    <div key={data.id} className="films_slides">
+    <Link key={data.id} className="films_slides" to={`/film/${data.id}`}>
       <figure className="films_slides_img">
-        <img src={data.img} alt="" />
+        <img src={data.img} alt="data.title" />
       </figure>
       <div className="films_slides_info">
         <div className="films_slides_title">{data.title}</div>
@@ -15,7 +16,7 @@ function FilmCart({ data }) {
           <span className="films_slides_voters">180k Voters</span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
