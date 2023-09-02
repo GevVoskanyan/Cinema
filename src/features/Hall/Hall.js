@@ -1,12 +1,14 @@
-import React, { useCallback, useState } from "react";
+import React from "react";
 import Wrapper from "../Wrapper/Wrapper";
 import BuyTicketSteps from "../../common/BuyTicketSteps/BuyTicketSteps";
 import AboutSeats from "../../common/AboutSeats/AboutSeats";
 import "./Hall.scss";
 import Seats from "../../common/Seats/Seats";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 function Hall(props) {
+  const { filmId } = useParams();
+
   return (
     <section className="seats">
       <Wrapper>
@@ -21,7 +23,7 @@ function Hall(props) {
             <button type="button" className="btn hall_btn_cancel">
               Cancel
             </button>
-            <Link to={"ticket/checkout"} className="btn btn_orange">
+            <Link to={`/tickets/checkout/${filmId}`} className="btn btn_orange">
               Next
             </Link>
           </div>

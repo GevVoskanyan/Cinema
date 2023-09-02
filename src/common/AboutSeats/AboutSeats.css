@@ -1,0 +1,34 @@
+.hall__desc {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 20px;
+}
+.hall__desc_user_seat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.hall__desc_user_seat_circle {
+  background-color: #b8aeae;
+  margin-bottom: 5px;
+}
+.hall__desc_user_seat_circle_text {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hall__desc_available_seat_circle {
+  background-color: rgb(18, 95, 85);
+}
+.hall__desc_booked_seat_circle {
+  background-color: rgb(137, 52, 52);
+}/*# sourceMappingURL=AboutSeats.css.map */

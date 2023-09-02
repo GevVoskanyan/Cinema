@@ -2,7 +2,7 @@ import React from "react";
 import "./Tickets.scss";
 import Wrapper from "./../Wrapper/Wrapper";
 import BuyTicketSteps from "./../../common/BuyTicketSteps/BuyTicketSteps";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { latest } from "../../data/data";
 import NotFound from "../NotFound/NotFound";
 import RatingComponent from "./../../common/RatingComponent/RatingComponent";
@@ -11,7 +11,7 @@ import TicketDateSelects from "./../../common/TicketDateSelects/TicketDateSelect
 function Tickets(props) {
   const { filmId } = useParams();
   const film = latest.find((f) => (f.id = filmId));
-  const navigate = useNavigate();
+
   if (!filmId) {
     return <NotFound />;
   }

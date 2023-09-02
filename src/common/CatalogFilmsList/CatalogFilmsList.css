@@ -1,0 +1,9 @@
+.catalog_films_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.catalog_films_list_item {
+  width: calc(33.3333333333% - 30px);
+}/*# sourceMappingURL=CatalogFilmsList.css.map */

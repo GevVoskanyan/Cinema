@@ -1,0 +1,45 @@
+.personal__title {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.personal__banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 90%;
+  padding: 20px 30px;
+  background-color: #000;
+  margin-bottom: 70px;
+  border-radius: 15px;
+}
+.personal__banner_inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.personal__banner_inp_container {
+  width: 48%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.personal__banner_inp {
+  width: 100%;
+  color: #135f55;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+.personal__banner_inp_icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #135f55;
+}/*# sourceMappingURL=PersonalDetails.css.map */

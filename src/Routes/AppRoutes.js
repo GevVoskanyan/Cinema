@@ -8,6 +8,7 @@ import Catalog from "../features/Catalog/Catalog";
 import SingleFilm from "../features/SingleFilm/SingleFilm";
 import Tickets from "../features/Tickets/Tickets";
 import Hall from "../features/Hall/Hall";
+import Checkout from "../features/Checkout/Checkout";
 
 function AppRoutes(props) {
   return (
@@ -19,6 +20,7 @@ function AppRoutes(props) {
       <Route path="/catalog" element={<Catalog />} />
       <Route path="/tickets/:filmId" element={<Tickets />} />
       <Route path="/tickets/seats/:filmId" element={<Hall />} />
+      <Route path="/tickets/checkout/:filmId" element={<Checkout />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

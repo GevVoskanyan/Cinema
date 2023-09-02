@@ -26,4 +26,3 @@ function Home() {
 }
 
 export default Home;
-//clip-path: polygon(50% 3%, 100% 0, 100% 46%, 100% 100%, 51% 96%, 0 100%, 0 48%, 0 0);

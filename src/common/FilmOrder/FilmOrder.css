@@ -1,0 +1,39 @@
+.film_order {
+  width: 100%;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.film_order_img_container {
+  width: 40%;
+  border-radius: 20px;
+}
+.film_order_img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.film_order_desc {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.film_order_desc_title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+}
+.film_order_desc_date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.film_order_desc_date_item {
+  width: 45%;
+  justify-content: center;
+}/*# sourceMappingURL=FilmOrder.css.map */

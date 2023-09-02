@@ -1,0 +1,39 @@
+.seats {
+  background-color: #1d1f1f;
+}
+.seats__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.seats .f_i {
+  visibility: visible;
+}
+.seats .active_2 {
+  background-color: #e8920b;
+  border: none;
+}
+.seats .hall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.hall_btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+}
+
+.hall_btn_cancel {
+  background-color: transparent;
+  border: 2px solid #e8920b;
+  color: #e8920b !important;
+  background-color: transparent;
+  margin-right: 10px;
+}
+.hall_btn_cancel:hover {
+  background-color: transparent;
+  border: 2px solid #e8920b;
+}/*# sourceMappingURL=Hall.css.map */

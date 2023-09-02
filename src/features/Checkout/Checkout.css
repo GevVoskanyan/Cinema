@@ -1,0 +1,29 @@
+.checkout {
+  background-color: #1d1f1f;
+}
+.checkout_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.checkout .f_i {
+  visibility: visible;
+}
+.checkout .active_2 {
+  background-color: #e8920b;
+  border: none;
+}
+.checkout .s_i {
+  visibility: visible;
+}
+.checkout .active_3 {
+  background-color: #e8920b;
+  border: none;
+}
+.checkout_title {
+  color: #fff;
+  font-family: Roboto-Medium;
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=Checkout.css.map */

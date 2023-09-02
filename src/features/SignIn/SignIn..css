@@ -1,0 +1,83 @@
+.sign_in {
+  background-color: rgb(28, 40, 39);
+}
+.sign_in_form {
+  width: 100%;
+  max-width: 730px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 42px 100px 80px;
+  background-color: rgb(6, 8, 8);
+  margin-bottom: 65px;
+  border-radius: 50px;
+}
+.sign_in_form_title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sign_in_form__inp {
+  padding: 20px;
+  background: rgb(180, 181, 181);
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  color: #135f55;
+}
+.sign_in_form__inp::-moz-placeholder {
+  color: #135f55;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sign_in_form__inp::placeholder {
+  color: #135f55;
+  font-size: 18px;
+  font-weight: 600;
+}
+.sign_in_form__forgot {
+  border: none;
+  background-color: transparent;
+  color: var(--orange, #e8920b);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: end;
+}
+.sign_in_form___or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e8920b;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.sign_in_form_soc {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 40px;
+}
+.sign_in_form_soc_item {
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.sign_in_form_soc_item:nth-child(2n) {
+  margin: 0 35px;
+}
+.sign_in_form_soc_item_icon {
+  font-size: 48px;
+}
+.sign_in_form_btn {
+  background-color: #e8920b;
+  border-radius: 30px !important;
+  padding: 10px 40px !important;
+}
+.sign_in_form_btn:hover {
+  background-color: #c67e11;
+}/*# sourceMappingURL=SignIn..css.map */

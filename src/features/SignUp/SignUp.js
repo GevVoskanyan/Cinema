@@ -1,6 +1,8 @@
 import React from "react";
 import "./SignUp.scss";
 import Wrapper from "./../Wrapper/Wrapper";
+import Cart from "./../../common/Cart/Cart";
+import CartForm from "./../../common/CartForm/CartForm";
 
 function SignUp(props) {
   return (
@@ -72,80 +74,8 @@ function SignUp(props) {
               />
             </div>
             <div className="sign_up_form_cart_data">
-              <div className="sign_up_form_cart_data_cart">
-                <h3 className="sign_up_form_cart_data_cart_title">VISA</h3>
-                {/* dotes */}
-                <div className="sign_up_form_cart_data_cart_dotes_container">
-                  <div className="sign_up_form_cart_data_cart_dotes">
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                  </div>
-                  <div className="sign_up_form_cart_data_cart_dotes">
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                  </div>
-                  <div className="sign_up_form_cart_data_cart_dotes">
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                  </div>
-                  <div className="sign_up_form_cart_data_cart_dotes">
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                    <span className="sign_up_form_cart_data_cart_dote">.</span>
-                  </div>
-                </div>
-                <div className="sign_up_form_cart_data_info">
-                  <div className="sign_up_form_cart_data_info_userName">
-                    <div className="sign_up_form_cart_data_info_name">Name</div>
-                    <div className="sign_up_form_cart_data_info_surname">
-                      Surname
-                    </div>
-                  </div>
-                  <div className="sign_up_form_cart_data_info_date">.. /..</div>
-                </div>
-              </div>
-              <div className="sign_up_form_cart_data_info_inp_container">
-                <input
-                  type="text"
-                  className="sign_up_form_cart_data_info_inp_container_inp"
-                  placeholder="Name on Card"
-                />
-                <input
-                  type="text"
-                  className="sign_up_form_cart_data_info_inp_container_inp"
-                  placeholder="Card Number"
-                />
-                <div className="sign_up_form_cart_data_info_inp_container_date">
-                  <input
-                    type="text"
-                    className="sign_up_form_cart_data_info_inp_container_date_inp"
-                    placeholder="mm"
-                  />
-                  <span className="sign_up_form_cart_data_info_inp_container_date_line">
-                    -
-                  </span>
-                  <input
-                    type="text"
-                    className="sign_up_form_cart_data_info_inp_container_date_inp"
-                    placeholder="dd"
-                  />
-                  <span className="sign_up_form_cart_data_info_inp_container_date_line">
-                    -
-                  </span>
-                  <input
-                    type="text"
-                    className="sign_up_form_cart_data_info_inp_container_date_inp"
-                    placeholder="yy"
-                  />
-                </div>
-              </div>
+              <Cart />
+              <CartForm />
             </div>
           </form>
           <button className="btn sign_up_form_btn">Done</button>

@@ -1,0 +1,25 @@
+.catalog {
+  background-color: #1d1f1f;
+}
+.catalog__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.catalog__selects_container {
+  width: 50%;
+}
+.catalog_btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  background-color: transparent;
+  color: #e8920b;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  margin: 60px auto;
+}
+.catalog .films_slides {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=Catalog.css.map */

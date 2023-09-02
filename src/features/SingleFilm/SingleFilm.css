@@ -1,0 +1,156 @@
+.single_film {
+  background-color: #1d1f1f;
+}
+.single_film_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.single_film .orange__line {
+  margin-bottom: 90px;
+}
+.single_film__content_title_rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.single_film__content_title {
+  color: #fff;
+  font-family: Roboto-Medium;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.single_film__content_voters {
+  color: #d9d9d9;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.single_film_content_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.single_film_content_container_figure {
+  max-width: 410px;
+  background-color: red;
+  border-radius: 15px;
+}
+.single_film_content_container_figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.single_film_content_container_film_banner {
+  max-width: 410px;
+}
+.single_film_content_container_actors_container {
+  display: flex;
+  justify-content: space-between;
+}
+.single_film_content_container_actors_container_figure {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+}
+.single_film_content_container_actors_container_img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.single_film_triller_container {
+  width: 100%;
+  max-width: 725px;
+}
+.single_film_triller_container_iframe {
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+.single_film_triller_container_cadres {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.single_film_triller_container_cadre {
+  max-width: 230px;
+  border-radius: 15px;
+}
+.single_film_triller_container_cadre_img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.single_film_triller_container_view_all {
+  color: #e8920b;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: end;
+}
+.single_film_desc {
+  display: flex;
+  margin-bottom: 40px;
+}
+.single_film_desc_details {
+  width: 50%;
+}
+.single_film_desc_details .orange__line {
+  margin-bottom: 20px;
+}
+.single_film_desc_details_title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+}
+.single_film_desc_details_content {
+  padding: 60px 60px 60px 0;
+}
+.single_film_desc_details_rows {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.single_film_desc_details_rows_item {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.single_film_desc_storyline {
+  width: 50%;
+}
+.single_film_desc_storyline .orange__line {
+  margin-bottom: 20px;
+}
+.single_film_desc_storyline_title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+}
+.single_film_desc_storyline_info {
+  padding: 30px 15px 0 0;
+}
+.single_film_desc_storyline_info_text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 154.188%;
+}
+.single_film_desc_line .orange__line {
+  margin-bottom: 50px;
+}
+.single_film_get_tickets {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  margin: 0 auto 50px;
+}/*# sourceMappingURL=SingleFilm.css.map */

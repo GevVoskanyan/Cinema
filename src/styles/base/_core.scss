@@ -1,3 +1,4 @@
+@import "../abstracts/variables";
 * {
   margin: 0;
   padding: 0;
@@ -65,4 +66,16 @@ button {
   width: 65px;
   height: 65px;
   border-radius: 50%;
+}
+.bg-white {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: $dark;
+  font-size: 28px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  justify-content: center;
 }
